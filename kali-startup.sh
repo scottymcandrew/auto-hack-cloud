@@ -40,7 +40,7 @@ sudo yum install nc -y
 
 cd ..
 #
-sudo curl https://raw.githubusercontent.com/jamesholland-uk/auto-hack-cloud/master/struts1.rc > /home/user/struts1.rc
+sudo curl https://raw.githubusercontent.com/scottymcandrew/auto-hack-cloud/master/struts1.rc > /home/user/struts1.rc
 sed -i "s/10.5.1.66/$1/g" /home/user/struts1.rc
 sudo touch /home/user/struts1-exploit.sh
 sudo chmod 755 /home/user/struts1-exploit.sh
